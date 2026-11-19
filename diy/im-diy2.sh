@@ -103,8 +103,7 @@ sed -i "s/DEFAULT_PACKAGES.router:=/DEFAULT_PACKAGES.router:=bash curl default-s
 #git clone https://github.com/sbwml/packages_lang_golang -b 26.x feeds/packages/lang/golang
 
 # nanopc-t6
-echo '0
-# 启用 eBPF 支持
+echo '# 启用 eBPF 支持
 CONFIG_DEVEL=y
 CONFIG_BPF_TOOLCHAIN_HOST=y
 # CONFIG_BPF_TOOLCHAIN_NONE is not set
