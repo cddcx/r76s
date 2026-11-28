@@ -62,4 +62,6 @@ else
     fi
     
     log " ✅ 已预放 honk-core.bin ($(du -h "$HONK_OUT" | cut -f1))"
+    # 预编译 dae（kdae）
+    ./package/honk/dae/build_dae_core.sh aarch64_generic
 fi
